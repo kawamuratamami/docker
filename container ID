@@ -1,0 +1,5 @@
+CONTAINER ID   IMAGE                   COMMAND                   CREATED      STATUS         PORTS                  NAMES
+40eeb7b46742   nginx:1.21.1            "/docker-entrypoint.…"   7 days ago   Up 2 minutes   0.0.0.0:80->80/tcp     advance-laravel-nginx-1
+96a17f46eb6f   phpmyadmin/phpmyadmin   "/docker-entrypoint.…"   7 days ago   Up 2 minutes   0.0.0.0:8080->80/tcp   advance-laravel-phpmyadmin-1
+af2bc1242b7a   advance-laravel-php     "docker-php-entrypoi…"   7 days ago   Up 2 minutes   9000/tcp               advance-laravel-php-1
+76ceeeb94084   mysql:8.0.26            "docker-entrypoint.s…"   7 days ago   Up 2 minutes   3306/tcp, 33060/tcp    advance-laravel-mysql-1
